@@ -8,7 +8,7 @@ contract EuroToken is ERC20('Euro Token', '€URO') {
     using SafeMath for uint256;
 
     constructor() {
-        _mint(_msgSender(), 35_000_000 * (uint256(10)**decimals()));
+        _mint(_msgSender(), 175_000_000 * (uint256(10)**decimals()));
     }
 
     /**
